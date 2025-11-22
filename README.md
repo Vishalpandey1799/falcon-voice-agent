@@ -111,13 +111,15 @@ lk app env -w -d .env.local
 cd frontend
 
 # Install dependencies
-pnpm install
+pnpm install 
 
+ 
 # Copy environment file and configure
 cp .env.example .env.local
 
 # Edit .env.local with the same LiveKit credentials
 ```
+
 
 ### 4. Run the Application
 
