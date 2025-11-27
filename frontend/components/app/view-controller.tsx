@@ -6,10 +6,10 @@ import { useRoomContext } from '@livekit/components-react';
 import { useSession } from '@/components/app/session-provider';
 import { SessionView } from '@/components/app/session-view';
 import { WelcomeView } from '@/components/app/welcome-view';
-import { Day5WelcomeView } from '@/components/app/day5-welcome-view';
+import {FraudWelcomeView} from "@/components/app/day6-welcome-view";
 
 const MotionWelcomeView = motion.create(WelcomeView);
-const MotionDay5WelcomeView = motion.create(Day5WelcomeView);
+const MotionDay5WelcomeView = motion.create(FraudWelcomeView);
 const MotionSessionView = motion.create(SessionView);
 
 const VIEW_MOTION_PROPS = {
