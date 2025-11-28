@@ -6,10 +6,8 @@ import { useRoomContext } from '@livekit/components-react';
 import { useSession } from '@/components/app/session-provider';
 import { SessionView } from '@/components/app/session-view';
 import { WelcomeView } from '@/components/app/welcome-view';
-import {FraudWelcomeView} from "@/components/app/day6-welcome-view";
 
 const MotionWelcomeView = motion.create(WelcomeView);
-const MotionDay5WelcomeView = motion.create(FraudWelcomeView);
 const MotionSessionView = motion.create(SessionView);
 
 const VIEW_MOTION_PROPS = {
@@ -45,26 +43,16 @@ export function ViewController() {
     }
   };
 
-  const isDay5 = appConfig.day === 5;
-
   return (
     <AnimatePresence mode="wait">
       {/* Welcome screen */}
       {!isSessionActive && (
-        isDay5 ? (
-          <MotionDay5WelcomeView
-            key="welcome-day5"
-            {...VIEW_MOTION_PROPS}
-            onStart={startSession}
-          />
-        ) : (
-          <MotionWelcomeView
-            key="welcome"
-            {...VIEW_MOTION_PROPS}
-            startButtonText={appConfig.startButtonText}
-            onStartCall={startSession}
-          />
-        )
+        <MotionWelcomeView
+          key="welcome"
+          {...VIEW_MOTION_PROPS}
+          startButtonText={appConfig.startButtonText}
+          onStartCall={startSession}
+        />
       )}
       {/* Session view */}
       {isSessionActive && (

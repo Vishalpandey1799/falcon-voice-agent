@@ -1,0 +1,142 @@
+[
+  {
+    "id": "bread001",
+    "name": "Whole Wheat Bread",
+    "category": "Groceries",
+    "price": 40,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "milk001",
+    "name": "Toned Milk 1L",
+    "category": "Groceries",
+    "price": 55,
+    "tags": []
+  },
+  {
+    "id": "peanut001",
+    "name": "Peanut Butter",
+    "category": "Groceries",
+    "price": 120,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "pasta001",
+    "name": "Pasta 500g",
+    "category": "Groceries",
+    "price": 60,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "sauce001",
+    "name": "Tomato Sauce 500g",
+    "category": "Groceries",
+    "price": 80,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "cheese001",
+    "name": "Cheddar Cheese 200g",
+    "category": "Dairy",
+    "price": 150,
+    "tags": ["vegetarian"]
+  },
+  {
+    "id": "eggs001",
+    "name": "Eggs 12 pack",
+    "category": "Dairy",
+    "price": 120,
+    "tags": []
+  },
+  {
+    "id": "banana001",
+    "name": "Bananas 1kg",
+    "category": "Fruits",
+    "price": 50,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "apple001",
+    "name": "Apples 1kg",
+    "category": "Fruits",
+    "price": 100,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "chicken001",
+    "name": "Chicken Breast 500g",
+    "category": "Meat",
+    "price": 200,
+    "tags": []
+  },
+  {
+    "id": "rice001",
+    "name": "Basmati Rice 1kg",
+    "category": "Groceries",
+    "price": 90,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "potato001",
+    "name": "Potatoes 2kg",
+    "category": "Vegetables",
+    "price": 40,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "onion001",
+    "name": "Onions 1kg",
+    "category": "Vegetables",
+    "price": 30,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "tomato001",
+    "name": "Tomatoes 1kg",
+    "category": "Vegetables",
+    "price": 60,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "butter001",
+    "name": "Butter 200g",
+    "category": "Dairy",
+    "price": 80,
+    "tags": ["vegetarian"]
+  },
+  {
+    "id": "yogurt001",
+    "name": "Greek Yogurt 500g",
+    "category": "Dairy",
+    "price": 100,
+    "tags": ["vegetarian"]
+  },
+  {
+    "id": "flour001",
+    "name": "All-Purpose Flour 1kg",
+    "category": "Groceries",
+    "price": 50,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "sugar001",
+    "name": "White Sugar 1kg",
+    "category": "Groceries",
+    "price": 45,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "salt001",
+    "name": "Table Salt 500g",
+    "category": "Groceries",
+    "price": 20,
+    "tags": ["vegan"]
+  },
+  {
+    "id": "oil001",
+    "name": "Cooking Oil 1L",
+    "category": "Groceries",
+    "price": 120,
+    "tags": ["vegan"]
+  }
+]

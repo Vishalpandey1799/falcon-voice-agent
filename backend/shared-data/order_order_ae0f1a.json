@@ -1,0 +1,13 @@
+{
+  "orderId": "order_ae0f1a",
+  "timestamp": "2025-11-28T09:15:06.859025Z",
+  "items": [
+    {
+      "id": "onion001",
+      "qty": 1,
+      "price": 30
+    }
+  ],
+  "total": 30,
+  "status": "delivered"
+}

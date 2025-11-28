@@ -1,0 +1,10 @@
+{
+  "peanut_butter_sandwich": ["bread001", "peanut001"],
+  "pasta_for_two": ["pasta001", "sauce001"],
+  "cheese_sandwich": ["bread001", "cheese001"],
+  "banana_smoothie": ["banana001", "milk001"],
+  "chicken_curry": ["chicken001", "onion001", "tomato001", "rice001"],
+  "vegetable_stir_fry": ["potato001", "onion001", "tomato001", "oil001"],
+  "scrambled_eggs": ["eggs001", "butter001"],
+  "yogurt_parfait": ["yogurt001", "banana001"]
+}
